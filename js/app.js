@@ -1,5 +1,6 @@
 import App from './components/App';
 import AppHomeRoute from './routes/AppHomeRoute';
+require("babel-polyfill");
 
 React.render(
   <Relay.RootContainer
